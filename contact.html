@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>GTI | Contact</title>
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+ 
+    </section>
+
+    
+  <!--------------------Contact us content-------------------------->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7442892.956584401!2d5.943940648652253!3d76.83720039779729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45a1cfdc4fa3c049%3A0x2bf373e71b35e875!2sSvalbard%2C%20Svalbard%20and%20Jan%20Mayen!5e0!3m2!1sen!2sus!4v1629797580675!5m2!1sen!2sus" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>XYZ Road, ABC</h5>
+                    <p>Wamin, Barsoom</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>123 345 1232</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>support@gti.com</h5>
+                    <p>Email us</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="POST">
+                <input name="name" type="text" placeholder="enter name" required>
+                <input name="email" type="email" placeholder="enter email" required>
+                <input name="subject" type="text" placeholder="enter subject" required>
+                <textarea name="message" id="" rows="10" placeholder="Message"></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!--------------------footer-------------------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates<br> 
+        itaque ab. Fugit, non repellat sit ab dignissimos ipsam recusandae?</p>
+    <div class="icons">
+        <i class="fa fa-envelope"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by: <i class="fa fa-plug"> </i> NodeLookup</p>
+</section>
+
+<script src="Menu.js"></script>
+</body>
+</html>
