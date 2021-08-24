@@ -26,6 +26,11 @@
     cursor: pointer;
 }
 
+.green {
+    color: yellowgreen;
+    font-weight:100;
+}
+
 nav{
     display: flex;
     padding: 2% 6%;
@@ -487,9 +492,10 @@ h3 {
 /*==============================================contact page=========================================================================*/
 
 .location {
-    width: 80%;
+    width: 40%;
     margin: auto;
     padding: 80px 0;
+    border-radius: 10px;
 }
 
 .location iframe {
@@ -587,6 +593,20 @@ h3 {
 
 .sub-header-node h1 {
     margin-top: 100px;
+
+}
+
+.sub-header-contact {
+    height: 55vh;
+    width: 100%;
+    background: #232323;
+    color: #fff;
+
+}
+
+.sub-header-contact h1 {
+    margin-top: 100px;
+    text-align: center;
 
 }
 
