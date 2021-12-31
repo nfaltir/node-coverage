@@ -28,11 +28,7 @@
 .green {
   color: yellowgreen;
   font-weight: 100;
-}
-
-.node-title {
-  font-size: 1.5em;
-  font-weight: 500;
+  font-size: 1.2em;
 }
 
 nav {
@@ -73,9 +69,9 @@ nav img {
   margin: auto;
 }
 
-.nav-links ul li a:active {
-  color: yellowgreen;
-  font-size: 40px;
+.nav-links ul li:hover::after {
+  width: 100%;
+  transition: 0.5s;
 }
 
 .text-box {
